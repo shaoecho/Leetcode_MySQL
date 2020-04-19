@@ -3,7 +3,7 @@
 |  #   | Questions                                                    | Diffculty  |
 | :--: | ------------------------------------------------------------ | ---------- |
 | 175  | [Combine_Two_Tables](https://github.com/shaoecho/Leetcode_MySQL) | easy       |
-| 176  | 第二高的薪水                                                 | easy       |
+| 176  | [Second Highest Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/176_Second_Highest_Salary.md) | easy       |
 | 177  | 第N高的薪水                                                  | medium     |
 | 178  | 分数排名                                                     | medium     |
 | 180  | 连续出现的数字                                               | medium     |
