@@ -1,6 +1,33 @@
 #### 题目
 
-![175](G:\CoderLife\Leetcode_MySQL\img\175.png)
+表1: Person
+
++-------------+---------+
+| 列名         | 类型     |
++-------------+---------+
+| PersonId    | int     |
+| FirstName   | varchar |
+| LastName    | varchar |
++-------------+---------+
+PersonId 是上表主键
+表2: Address
+
++-------------+---------+
+| 列名         | 类型    |
++-------------+---------+
+| AddressId   | int     |
+| PersonId    | int     |
+| City        | varchar |
+| State       | varchar |
++-------------+---------+
+AddressId 是上表主键
+
+
+编写一个 SQL 查询，满足条件：无论 person 是否有地址信息，都需要基于上述两表提供 person 的以下信息：
+
+FirstName, LastName, City, State
+
+![175](https://raw.githubusercontent.com/shaoecho/Leetcode_MySQL/master/img/175.png)
 
 #### MySQL解题  :
 
@@ -19,7 +46,7 @@ on Person.PersonId = Address.PersonId
 
 Person表 >= Address表, 因为不一定每人都有地址信息, 而看题目,要求的是完全保留左表(Person表),所以用left join.
 
-![175_1](G:\CoderLife\Leetcode_MySQL\img\175_1.png)
+![175_1](https://raw.githubusercontent.com/shaoecho/Leetcode_MySQL/master/img/175_1.png)
 
 
 
