@@ -38,18 +38,18 @@ insert into cinema (id, movie, description, rating) values ('5', 'House card', '
 #### MySQL解题  :
 
 ```mysql
-SELECT
-    IFNULL(
-      (SELECT DISTINCT    # DISTINCT是去重,用于返回唯一不同的值。
-            Salary        # SELECT  列名称 FROM 表名称 
-       FROM Employee
-       ORDER BY Salary DESC       #DESC表降序 
-       LIMIT 1 OFFSET 1),
-    NULL) AS SecondHighestSalary
-
+# Write your MySQL query statement below
+select *
+from cinema as c
+where 
+    c.description != 'boring ' 
+    and mod(c.id,2) = 1         
+order by rating desc 
 ```
 
-#### 知识点 :
+#### 知识点:
 
+1)  建议尽量使用<> ,sql2000中是不支持 !=
 
+2)  #MOD(x,y) 返回除法操作的余数,或者用c.id % 2 =1 
 
