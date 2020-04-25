@@ -14,7 +14,10 @@
 | 185  | 部门工资前三高的所有员工 Department Top Three Salaries()     | difficulty |
 | 196  | [删除重复的电子邮箱 Delete Duplicate Emails]([https://github.com/shaoecho/Leetcode_MySQL/blob/master/196_Delete%20Duplicate%20Emails.md](https://github.com/shaoecho/Leetcode_MySQL/blob/master/196_Delete Duplicate Emails.md)) | easy       |
 | 197  | [上升的温度 Rising Temperature]([https://github.com/shaoecho/Leetcode_MySQL/blob/master/197_Rising%20Temperature.md](https://github.com/shaoecho/Leetcode_MySQL/blob/master/197_Rising Temperature.md)) | easy       |
-|      |                                                              |            |
+| 262  |                                                              |            |
+| 595  |                                                              |            |
+| 596  |                                                              |            |
+| 601  |                                                              |            |
 | 620  | [有趣的电影 Not Boring Movies]([https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not%20Boring%20Movies.md](https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not Boring Movies.md)) | easy       |
 | 626  | [换座位 Exchange Seats]()                                    | medium     |
 | 627  | [交换工资 Swap Salary]()                                     | easy       |

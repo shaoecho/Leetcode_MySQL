@@ -1,4 +1,6 @@
-#### SQL框架
+####交换工资
+
+ SQL框架
 
 ```mysql
 create table if not exists salary(id int, name varchar(100), sex char(1), salary int)

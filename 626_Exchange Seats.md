@@ -36,7 +36,7 @@ insert into seat (id, student) values ('5', 'Jeames')
 | 4    | Emerson |
 | 5    | Jeames  |
 
-**注意：**
+**注意：*
 
 如果学生人数是奇数，则不需要改变最后一个同学的座位。
 
