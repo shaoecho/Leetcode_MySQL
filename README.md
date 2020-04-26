@@ -20,7 +20,7 @@
 | 601  | [体育馆的人流量 Human Traffic of Stadium](https://github.com/shaoecho/Leetcode_MySQL/blob/master/601_Human%20Traffic%20of%20Stadium.md) | difficulty |
 | 620  | [有趣的电影 Not Boring Movies](https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not%20Boring%20Movies.md) | easy       |
 | 626  | [换座位 Exchange Seats](https://github.com/shaoecho/Leetcode_MySQL/blob/master/626_Exchange%20Seats.md) | medium     |
-| 627  | [交换工资 Swap Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/627_Swap%20Salary.md_) | easy       |
+| 627  | [交换工资 Swap Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/627_Swap%20Salary.md) | easy       |
 |      |                                                              |            |
 |      |                                                              |            |
 |      |                                                              |            |
