@@ -50,10 +50,10 @@ Result 表：
 #### MySQL解题  :
 
 ```mysql
-
+/* Write your T-SQL query statement below */
+select player_id , min(event_date) as first_login
+from Activity
+group by player_id 
+order by player_id asc 
 ```
-
-#### 知识点 :
-
-
 

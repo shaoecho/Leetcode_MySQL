@@ -15,35 +15,35 @@
 | 196  | [删除重复的电子邮箱 Delete Duplicate Emails](https://github.com/shaoecho/Leetcode_MySQL/blob/master/196_Delete%20Duplicate%20Emails.md) | easy       |
 | 197  | [上升的温度 Rising Temperature](https://github.com/shaoecho/Leetcode_MySQL/blob/master/197_Rising%20Temperature.md) | easy       |
 | 262  | [行程和用户 Trips and Users](https://github.com/shaoecho/Leetcode_MySQL/blob/master/262_Trips%20and%20Users.md) | difficulty |
-| 511  | [Wonderful Tech(  )                                          | easy       |
-| 512  |                                                              |            |
-| 534  |                                                              |            |
-| 550  |                                                              |            |
-| 569  |                                                              |            |
-| 570  |                                                              |            |
-| 571  |                                                              |            |
-| 574  |                                                              |            |
-| 577  |                                                              |            |
-| 578  |                                                              |            |
-| 579  |                                                              |            |
-| 580  |                                                              |            |
-| 584  |                                                              |            |
-| 585  |                                                              |            |
-| 586  |                                                              |            |
+| 511  | Game Play Analysis I  游戏玩家分析I                          | easy       |
+| 512  | Game Play Analysis II 游戏玩家分析II                         | easy       |
+| 534  |                                                              | medium     |
+| 550  |                                                              | medium     |
+| 569  |                                                              | difficulty |
+| 570  |                                                              | medium     |
+| 571  |                                                              | difficulty |
+| 574  |                                                              | medium     |
+| 577  | [员工奖金 Employee Bonus()                                   | easy       |
+| 578  |                                                              | medium     |
+| 579  |                                                              | difficulty |
+| 580  |                                                              | medium     |
+| 584  | [寻找用户推荐人 Find Customer Referee                        | easy       |
+| 585  |                                                              | medium     |
+| 586  | 订单最多的客户 Customer Placing the Largest Number of Orders | easy       |
 | 595  | [大的国家 Big Countries](https://github.com/shaoecho/Leetcode_MySQL/blob/master/595_Investments%20in%202016.md) | easy       |
 | 596  | [超过5名学生的课 Classes More Than 5 Students](https://github.com/shaoecho/Leetcode_MySQL/blob/master/596_Big%20Countries.md) | easy       |
 | 601  | [体育馆的人流量 Human Traffic of Stadium](https://github.com/shaoecho/Leetcode_MySQL/blob/master/601_Human%20Traffic%20of%20Stadium.md) | difficulty |
-| 602  |                                                              |            |
-| 603  |                                                              |            |
-| 607  |                                                              |            |
-| 608  |                                                              |            |
-| 610  |                                                              |            |
-| 612  |                                                              |            |
-| 613  |                                                              |            |
-| 614  |                                                              |            |
-| 615  |                                                              |            |
-| 618  |                                                              |            |
-| 619  |                                                              |            |
+| 602  |                                                              | medium     |
+| 603  |                                                              | easy       |
+| 607  |                                                              | easy       |
+| 608  |                                                              | medium     |
+| 610  |                                                              | easy       |
+| 612  |                                                              | medium     |
+| 613  |                                                              | easy       |
+| 614  |                                                              | medium     |
+| 615  |                                                              | difficulty |
+| 618  |                                                              | difficulty |
+| 619  |                                                              | easy       |
 | 620  | [有趣的电影 Not Boring Movies](https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not%20Boring%20Movies.md) | easy       |
 | 626  | [换座位 Exchange Seats](https://github.com/shaoecho/Leetcode_MySQL/blob/master/626_Exchange%20Seats.md) | medium     |
 | 627  | [交换工资 Swap Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/627_Swap%20Salary.md) | easy       |
