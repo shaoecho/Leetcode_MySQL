@@ -34,12 +34,12 @@
 | 596  | [超过5名学生的课 Classes More Than 5 Students](https://github.com/shaoecho/Leetcode_MySQL/blob/master/596_Big%20Countries.md) | easy       |
 | 601  | [体育馆的人流量 Human Traffic of Stadium](https://github.com/shaoecho/Leetcode_MySQL/blob/master/601_Human%20Traffic%20of%20Stadium.md) | difficulty |
 | 602  |                                                              | medium     |
-| 603  |                                                              | easy       |
-| 607  |                                                              | easy       |
-| 608  |                                                              | medium     |
-| 610  |                                                              | easy       |
+| 603  | [连续空余座位 Consecutive Available Seats()                  | easy       |
+| 607  | [销售员 Sales Person                                         | easy       |
+| 608  | [树节点 Tree Node                                            | medium     |
+| 610  | [判断三角形 Triangle Judgement                               | easy       |
 | 612  |                                                              | medium     |
-| 613  |                                                              | easy       |
+| 613  | [直线上的最近距离 Shortest Distance in a Line                | easy       |
 | 614  |                                                              | medium     |
 | 615  |                                                              | difficulty |
 | 618  |                                                              | difficulty |
@@ -47,64 +47,64 @@
 | 620  | [有趣的电影 Not Boring Movies](https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not%20Boring%20Movies.md) | easy       |
 | 626  | [换座位 Exchange Seats](https://github.com/shaoecho/Leetcode_MySQL/blob/master/626_Exchange%20Seats.md) | medium     |
 | 627  | [交换工资 Swap Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/627_Swap%20Salary.md) | easy       |
-| 1045 |                                                              |            |
-| 1050 |                                                              |            |
-| 1068 |                                                              |            |
-| 1069 |                                                              |            |
-| 1070 |                                                              |            |
-| 1075 |                                                              |            |
-| 1076 |                                                              |            |
-| 1077 |                                                              |            |
-| 1082 |                                                              |            |
-| 1083 |                                                              |            |
-| 1084 |                                                              |            |
-| 1097 |                                                              |            |
-| 1098 |                                                              |            |
-| 1107 |                                                              |            |
-| 1112 |                                                              |            |
-| 1113 |                                                              |            |
-| 1126 |                                                              |            |
-| 1127 |                                                              |            |
-| 1132 |                                                              |            |
-| 1141 |                                                              |            |
-| 1142 |                                                              |            |
-| 1148 |                                                              |            |
-| 1158 |                                                              |            |
-| 1159 |                                                              |            |
-| 1164 |                                                              |            |
-| 1173 |                                                              |            |
-| 1174 |                                                              |            |
-| 1179 |                                                              |            |
-| 1193 |                                                              |            |
-| 1194 |                                                              |            |
-| 1204 |                                                              |            |
-| 1205 |                                                              |            |
-| 1211 |                                                              |            |
-| 1212 |                                                              |            |
-| 1225 |                                                              |            |
-| 1241 |                                                              |            |
-| 1251 |                                                              |            |
-| 1264 |                                                              |            |
-| 1270 |                                                              |            |
-| 1280 |                                                              |            |
-| 1285 |                                                              |            |
-| 1294 |                                                              |            |
-| 1303 |                                                              |            |
-| 1321 |                                                              |            |
-| 1322 |                                                              |            |
-| 1327 |                                                              |            |
-| 1336 |                                                              |            |
-| 1341 |                                                              |            |
-| 1350 |                                                              |            |
-| 1355 |                                                              |            |
-| 1364 |                                                              |            |
-| 1369 |                                                              |            |
-| 1378 |                                                              |            |
-| 1384 |                                                              |            |
-| 1393 |                                                              |            |
-| 1398 |                                                              |            |
-| 1407 |                                                              |            |
-| 1412 |                                                              |            |
-| 1421 |                                                              |            |
-| 1435 |                                                              |            |
+| 1045 |                                                              | medium     |
+| 1050 |                                                              | easy       |
+| 1068 |                                                              | easy       |
+| 1069 |                                                              | easy       |
+| 1070 |                                                              | medium     |
+| 1075 |                                                              | easy       |
+| 1076 |                                                              | easy       |
+| 1077 |                                                              | medium     |
+| 1082 |                                                              | easy       |
+| 1083 |                                                              | easy       |
+| 1084 |                                                              | easy       |
+| 1097 |                                                              | difficulty |
+| 1098 |                                                              | medium     |
+| 1107 |                                                              | medium     |
+| 1112 |                                                              | medium     |
+| 1113 |                                                              | easy       |
+| 1126 |                                                              | medium     |
+| 1127 |                                                              | difficulty |
+| 1132 |                                                              | medium     |
+| 1141 |                                                              | easy       |
+| 1142 |                                                              | easy       |
+| 1148 |                                                              | easy       |
+| 1158 |                                                              | medium     |
+| 1159 |                                                              | difficulty |
+| 1164 |                                                              | medium     |
+| 1173 |                                                              | easy       |
+| 1174 |                                                              | medium     |
+| 1179 |                                                              | easy       |
+| 1193 |                                                              | medium     |
+| 1194 |                                                              | difficulty |
+| 1204 |                                                              | medium     |
+| 1205 |                                                              | medium     |
+| 1211 |                                                              | easy       |
+| 1212 |                                                              | medium     |
+| 1225 |                                                              | difficulty |
+| 1241 |                                                              | easy       |
+| 1251 |                                                              | easy       |
+| 1264 |                                                              | medium     |
+| 1270 |                                                              | medium     |
+| 1280 |                                                              | easy       |
+| 1285 |                                                              | medium     |
+| 1294 |                                                              | easy       |
+| 1303 |                                                              | easy       |
+| 1321 |                                                              | medium     |
+| 1322 |                                                              | easy       |
+| 1327 |                                                              | easy       |
+| 1336 |                                                              | difficulty |
+| 1341 |                                                              | medium     |
+| 1350 |                                                              | easy       |
+| 1355 |                                                              | medium     |
+| 1364 |                                                              | medium     |
+| 1369 |                                                              | difficulty |
+| 1378 |                                                              | easy       |
+| 1384 |                                                              | difficulty |
+| 1393 |                                                              | medium     |
+| 1398 |                                                              | medium     |
+| 1407 |                                                              | easy       |
+| 1412 |                                                              | difficulty |
+| 1421 |                                                              | medium     |
+| 1435 |                                                              | easy       |
 
