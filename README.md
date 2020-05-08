@@ -43,18 +43,18 @@
 | 614  |                                                              | medium     |
 | 615  |                                                              | difficulty |
 | 618  |                                                              | difficulty |
-| 619  |                                                              | easy       |
+| 619  | 只出现一次的最大数字 Biggest Single Number                   | easy       |
 | 620  | [有趣的电影 Not Boring Movies](https://github.com/shaoecho/Leetcode_MySQL/blob/master/620_Not%20Boring%20Movies.md) | easy       |
 | 626  | [换座位 Exchange Seats](https://github.com/shaoecho/Leetcode_MySQL/blob/master/626_Exchange%20Seats.md) | medium     |
 | 627  | [交换工资 Swap Salary](https://github.com/shaoecho/Leetcode_MySQL/blob/master/627_Swap%20Salary.md) | easy       |
 | 1045 |                                                              | medium     |
-| 1050 |                                                              | easy       |
-| 1068 |                                                              | easy       |
-| 1069 |                                                              | easy       |
-| 1070 |                                                              | medium     |
-| 1075 |                                                              | easy       |
-| 1076 |                                                              | easy       |
-| 1077 |                                                              | medium     |
+| 1050 | 合作过至少三次的演员和导演 Actors and Directors Who Cooperated At Least Three Times | easy       |
+| 1068 | 产品销售分析I Product Sales Analysis I                       | easy       |
+| 1069 | 销售分析Ⅱ Product Sales Analysis II                          | easy       |
+| 1070 | 产品销售分析III Product Sales Analysis III                   | medium     |
+| 1075 | 项目员工分析I Project Employees I                            | easy       |
+| 1076 | 项目员工分析II Project Employees II                          | easy       |
+| 1077 | 项目员工分析III Project EmployeesIII                         | medium     |
 | 1082 |                                                              | easy       |
 | 1083 |                                                              | easy       |
 | 1084 |                                                              | easy       |
@@ -107,4 +107,14 @@
 | 1412 |                                                              | difficulty |
 | 1421 |                                                              | medium     |
 | 1435 |                                                              | easy       |
+| 1440 |                                                              | medium     |
+
+
+
+
+
+
+
+
+
 

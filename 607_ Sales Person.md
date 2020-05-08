@@ -1,0 +1,125 @@
+####  销售员
+
+SQL框架
+
+```mysql
+Create table If Not Exists salesperson (sales_id int, name varchar(255), salary int,commission_rate int, hire_date varchar(255))
+Create table If Not Exists company (com_id int, name varchar(255), city varchar(255))
+Create table If Not Exists orders (order_id int, order_date varchar(255), com_id int, sales_id int, amount int)
+Truncate table salesperson
+insert into salesperson (sales_id, name, salary, commission_rate, hire_date) values ('1', 'John', '100000', '6', '4/1/2006')
+insert into salesperson (sales_id, name, salary, commission_rate, hire_date) values ('2', 'Amy', '12000', '5', '5/1/2010')
+insert into salesperson (sales_id, name, salary, commission_rate, hire_date) values ('3', 'Mark', '65000', '12', '12/25/2008')
+insert into salesperson (sales_id, name, salary, commission_rate, hire_date) values ('4', 'Pam', '25000', '25', '1/1/2005')
+insert into salesperson (sales_id, name, salary, commission_rate, hire_date) values ('5', 'Alex', '5000', '10', '2/3/2007')
+Truncate table company
+insert into company (com_id, name, city) values ('1', 'RED', 'Boston')
+insert into company (com_id, name, city) values ('2', 'ORANGE', 'New York')
+insert into company (com_id, name, city) values ('3', 'YELLOW', 'Boston')
+insert into company (com_id, name, city) values ('4', 'GREEN', 'Austin')
+Truncate table orders
+insert into orders (order_id, order_date, com_id, sales_id, amount) values ('1', '1/1/2014', '3', '4', '10000')
+insert into orders (order_id, order_date, com_id, sales_id, amount) values ('2', '2/1/2014', '4', '5', '5000')
+insert into orders (order_id, order_date, com_id, sales_id, amount) values ('3', '3/1/2014', '1', '1', '50000')
+insert into orders (order_id, order_date, com_id, sales_id, amount) values ('4', '4/1/2014', '1', '4', '25000')
+```
+
+描述
+
+给定 3 个表： salesperson， company， orders。
+输出所有表 salesperson 中，没有向公司 'RED' 销售任何东西的销售员。
+
+解释
+输入
+
+表: salesperson`
+
+| sales_id | name | salary | commission_rate | hire_date  |
+| -------- | ---- | ------ | --------------- | ---------- |
+| 1        | John | 100000 | 6               | 4/1/2006   |
+| 2        | Amy  | 120000 | 5               | 5/1/2010   |
+| 3        | Mark | 65000  | 12              | 12/25/2008 |
+| 4        | Pam  | 25000  | 25              | 1/1/2005   |
+
+表 `salesperson` 存储了所有销售员的信息。每个销售员都有一个销售员编号 **sales_id** 和他的名字 **name** 。
+
+表： `company`
+
+| com_id | name   | city     |
+| ------ | ------ | -------- |
+| 1      | RED    | Boston   |
+| 2      | ORANGE | New York |
+| 3      | YELLOW | Boston   |
+| 4      | GREEN  | Austin   |
+
+表 `company` 存储了所有公司的信息。每个公司都有一个公司编号 **com_id** 和它的名字 **name** 。
+
+表： `orders`
+
+| order_id | order_date | com_id | sales_id | amount |
+| -------- | ---------- | ------ | -------- | ------ |
+| 1        | 1/1/2014   | 3      | 4        | 100000 |
+| 2        | 2/1/2014   | 4      | 5        | 5000   |
+| 3        | 3/1/2014   | 1      | 1        | 50000  |
+| 4        | 4/1/2014   | 1      | 4        | 25000  |
+
+表 `orders` 存储了所有的销售数据，包括销售员编号 **sales_id** 和公司编号 **com_id** 。
+
+**输出**
+
+| name |
+| ---- |
+| Amy  |
+| Mark |
+| Alex |
+
+解释
+
+根据表 orders 中的订单 '3' 和 '4' ，容易看出只有 'John' 和 'Pam' 两个销售员曾经向公司 'RED' 销售过。
+
+所以我们需要输出表 salesperson 中所有其他人的名字。
+
+#### MySQL解题  :  使用 `OUTER JOIN` 和 `NOT IN` [Accepted]
+
+如果我们知道向 `RED` 公司销售东西的人，那么我们要知道没有向 `RED` 公司销售东西的人会非常容易。
+
+首先，我们用一个临时表保存向 `RED` 公司销售过东西的人，然后利用姓名信息将这个表和 **salesperson** 表建立联系。
+
+```mysql
+SELECT
+    *
+FROM
+    orders o
+        LEFT JOIN
+    company c ON o.com_id = c.com_id
+WHERE
+    c.name = 'RED'
+;
+```
+
+注意： "LEFT OUTER JOIN" 也可以写作 "LEFT JOIN" 。
+
+| order_id | date     | com_id | sales_id | amount | com_id | name | city   |
+| -------- | -------- | ------ | -------- | ------ | ------ | ---- | ------ |
+| 3        | 3/1/2014 | 1      | 1        | 50000  | 1      | RED  | Boston |
+| 4        | 4/1/2014 | 1      | 4        | 25000  | 1      | RED  | Boston |
+
+显然，列 *sales_id* 在 **salesperson** 中，所以我们把它当做子查询并使用NOT IN获得想要的数据。
+
+```mysql
+select s.name 
+from salesperson s
+where 
+    s.sales_id not in
+    (
+        select o.sales_id 
+        from orders o left join company c 
+        on o.com_id=c.com_id
+        where  c.name = 'RED'
+    )
+```
+
+
+
+
+
