@@ -55,9 +55,9 @@
 | 1075 | [项目员工分析I Project Employees I](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1075_Project%20Employees%20I.md) | easy       |
 | 1076 | [项目员工分析II Project Employees II](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1076_Project%20Employees%20II.md) | easy       |
 | 1077 | [项目员工分析III Project EmployeesIII](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1077_Project%20Employees%20III.md) | medium     |
-| 1082 | [销售分析I Sales Analysis I                                  | easy       |
-| 1083 | [销售分析 II Sales Analysis II                               | easy       |
-| 1084 | [销售分析 III Sales Analysis III                             | easy       |
+| 1082 | [销售分析I Sales Analysis I](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1082_Sales%20Analysis%20I.md) | easy       |
+| 1083 | [销售分析 II Sales Analysis II](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1083_Sales%20Analysis%20%E2%85%A1.md) | easy       |
+| 1084 | [销售分析 III Sales Analysis III](https://github.com/shaoecho/Leetcode_MySQL/blob/master/184_Department%20Highest%20Salary.md) | easy       |
 | 1097 |                                                              | difficulty |
 | 1098 |                                                              | medium     |
 | 1107 |                                                              | medium     |
