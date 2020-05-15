@@ -30,10 +30,10 @@ insert into Examinations (student_id, subject_name) values ('1', 'Math')
 
 学生表: `Students`
 
-| Column Name  | Type    |      |      |
-| ------------ | ------- | ---- | ---- |
-| student_id   | int     |      |      |
-| student_name | varchar |      |      |
+| Column Name  | Type    |
+| ------------ | ------- |
+| student_id   | int     |
+| student_name | varchar |
 
 主键为 student_id（学生ID），该表内的每一行都记录有学校一名学生的信息。
 

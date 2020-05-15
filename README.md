@@ -62,14 +62,14 @@
 | 1098 | 小众书籍                                                     | medium     |                                |
 | 1107 | 每日新用户统计                                               | medium     |                                |
 | 1112 | 每位学生的最高成绩                                           | medium     |                                |
-| 1113 | 报告的记录                                                   | easy       |                                |
+| 1113 | [报告的记录](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1113_Reported%20Posts.md) | easy       |                                |
 | 1126 | 查询活跃业务                                                 | medium     |                                |
 | 1127 | 用户购买平台                                                 | difficulty |                                |
 | 1132 | 报告的记录 II                                                | medium     |                                |
-| 1141 | 查询近30天活跃用户数                                         | easy       |                                |
-| 1142 | 过去30天的用户活动 II                                        | easy       |                                |
-| 1148 | 文章浏览 I                                                   | easy       |                                |
-| 1149 | 文章浏览 II                                                  |            |                                |
+| 1141 | [查询近30天活跃用户数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1141_User%20Activity%20for%20the%20Past%2030%20Days%20I.md) | easy       |                                |
+| 1142 | [过去30天的用户活动 II](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1142_User%20Activity%20for%20the%20Past%2030%20Days%20II.md) | easy       |                                |
+| 1148 | [文章浏览 I](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1148_Article%20Views%20I.md) | easy       |                                |
+| 1149 | [文章浏览 II](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1149_Article%20Views%20%E2%85%A1.md) |            |                                |
 | 1158 | 市场分析 I                                                   | medium     |                                |
 | 1159 | 市场分析 II                                                  | difficulty |                                |
 | 1164 | 指定日期的产品价格                                           | medium     |                                |
@@ -80,14 +80,14 @@
 | 1194 | 锦标赛优胜者                                                 | difficulty |                                |
 | 1204 | 最后一个能进入电梯的人                                       | medium     |                                |
 | 1205 | 每月交易II                                                   | medium     |                                |
-| 1211 | 查询结果的质量和占比                                         | easy       |                                |
+| 1211 | [查询结果的质量和占比](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1211_Queries%20Quality%20and%20Percentage.md) | easy       |                                |
 | 1212 | 查询球队积分                                                 | medium     |                                |
 | 1225 | 报告系统状态的连续日期                                       | difficulty |                                |
-| 1241 | 每个帖子的评论数                                             | easy       |                                |
-| 1251 | 平均售价                                                     | easy       |                                |
+| 1241 | [每个帖子的评论数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1241_Number%20of%20Comments%20per%20Post.md) | easy       |                                |
+| 1251 | [平均售价](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1251_Average%20Selling%20Price.md) | easy       |                                |
 | 1264 | 页面推荐                                                     | medium     |                                |
 | 1270 | 向公司CEO汇报工作的所有人                                    | medium     |                                |
-| 1280 | 学生们参加各科测试的次数                                     | easy       | 交叉连接,左连接                |
+| 1280 | [学生们参加各科测试的次数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1280_Students%20and%20Examinations.md) | easy       | 交叉连接,左连接                |
 | 1285 | 找到连续区间的开始和结束数字                                 | medium     |                                |
 | 1294 | 不同国家的天气类型                                           | easy       |                                |
 | 1303 | 求团队人数                                                   | easy       |                                |
