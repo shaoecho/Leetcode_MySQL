@@ -73,9 +73,9 @@
 | 1158 | 市场分析 I                                                   | medium     |                                         |
 | 1159 | 市场分析 II                                                  | difficulty |                                         |
 | 1164 | 指定日期的产品价格                                           | medium     |                                         |
-| 1173 | 即时食物配送 I                                               | easy       | 条件判断(if/case...when)求和(sum/count) |
-| 1174 | 即时食物配送 II                                              | medium     | where ... in(select ...from...)         |
-| 1179 | 重新格式化部门表                                             | easy       | 一列变多行,if, case...when,sum          |
+| 1173 | [即时食物配送 I](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1173_Immediate%20Food%20Delivery%20I.md) | easy       | 条件判断(if/case...when)求和(sum/count) |
+| 1174 | [即时食物配送 II](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1174_Immediate%20Food%20Delivery%20%E2%85%A1.md) | medium     | where ... in(select ...from...)         |
+| 1179 | [重新格式化部门表](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1179%20-Reformat%20Department%20Table.md) | easy       | 一列变多行,if, case...when,sum          |
 | 1193 | 每月交易 I                                                   | medium     |                                         |
 | 1194 | 锦标赛优胜者                                                 | difficulty |                                         |
 | 1204 | 最后一个能进入电梯的人                                       | medium     |                                         |
@@ -89,7 +89,7 @@
 | 1270 | 向公司CEO汇报工作的所有人                                    | medium     |                                         |
 | 1280 | [学生们参加各科测试的次数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1280_Students%20and%20Examinations.md) | easy       | 交叉连接,左连接                         |
 | 1285 | 找到连续区间的开始和结束数字                                 | medium     |                                         |
-| 1294 | 不同国家的天气类型                                           | easy       | case...when                             |
+| 1294 | [不同国家的天气类型](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1294_Weather%20Type%20in%20Each%20Country.md) | easy       | case...when                             |
 | 1303 | 求团队人数                                                   | easy       |                                         |
 | 1308 | 不同性别每日分数总计                                         | medium     |                                         |
 | 1321 | 餐馆营业额变化增长                                           | medium     |                                         |
