@@ -90,7 +90,7 @@
 | 1280 | [学生们参加各科测试的次数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1280_Students%20and%20Examinations.md) | easy       | 交叉连接,左连接                         |
 | 1285 | 找到连续区间的开始和结束数字                                 | medium     |                                         |
 | 1294 | [不同国家的天气类型](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1294_Weather%20Type%20in%20Each%20Country.md) | easy       | case...when                             |
-| 1303 | 求团队人数                                                   | easy       |                                         |
+| 1303 | 求团队人数                                                   | easy       | ?                                       |
 | 1308 | 不同性别每日分数总计                                         | medium     |                                         |
 | 1321 | 餐馆营业额变化增长                                           | medium     |                                         |
 | 1322 | 广告效果                                                     | easy       |                                         |
