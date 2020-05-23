@@ -110,6 +110,8 @@
 | 1421 | NPV Queries                                                  | medium     |                                         |
 | 1435 | Create a Session Bar Chart                                   | easy       |                                         |
 | 1440 | Evaluate Boolean Expression                                  | medium     |                                         |
+|      |                                                              |            |                                         |
+|      |                                                              |            |                                         |
 
 
 
