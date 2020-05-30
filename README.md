@@ -93,22 +93,22 @@
 | 1303 | [求团队人数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1303_Find%20the%20Team%20Size.md) | easy       | 自连接,左连接_多对多,组内子查询         |
 | 1308 | 不同性别每日分数总计                                         | medium     |                                         |
 | 1321 | 餐馆营业额变化增长                                           | medium     |                                         |
-| 1322 | 广告效果                                                     | easy       | 统计不同的值出现的次数                  |
-| 1327 | 列出指定时间段内所有的下单产品                               | easy       | 多约束条件                              |
+| 1322 | [广告效果](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1322_Ads%20Performance.md) | easy       | 统计不同的值出现的次数                  |
+| 1327 | [列出指定时间段内所有的下单产品](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1327_List%20the%20Products%20Ordered%20in%20a%20Period.md) | easy       | 多约束条件                              |
 | 1336 | 每次访问的交易次数                                           | difficulty |                                         |
 | 1341 | 电影评分                                                     | medium     |                                         |
-| 1350 | 院系无效的学生                                               | easy       |                                         |
+| 1350 | 院系无效的学生                                               | easy       | left join                               |
 | 1355 | 活动参与者                                                   | medium     |                                         |
 | 1364 | 顾客的可信联系人数量                                         | medium     |                                         |
 | 1369 | 获取最近第二次的活动                                         | difficulty |                                         |
-| 1378 | 使用唯一标识码替换员工ID                                     | easy       |                                         |
+| 1378 | 使用唯一标识码替换员工ID                                     | easy       | 最简单的left join                       |
 | 1384 | 按年度列出销售总额                                           | difficulty |                                         |
 | 1393 | 股票的资本损益                                               | medium     |                                         |
 | 1398 | 购买了产品A和产品B却没有购买产品C的顾客                      | medium     |                                         |
-| 1407 | 排名靠前的旅行者                                             | easy       |                                         |
+| 1407 | 排名靠前的旅行者                                             | easy       | left join,多重排序,比较简单             |
 | 1412 | Find the Quiet Students in All Exams                         | difficulty |                                         |
 | 1421 | NPV Queries                                                  | medium     |                                         |
-| 1435 | Create a Session Bar Chart                                   | easy       |                                         |
+| 1435 | Create a Session Bar Chart                                   | medium     |                                         |
 | 1440 | Evaluate Boolean Expression                                  | medium     |                                         |
 |      |                                                              |            |                                         |
 |      |                                                              |            |                                         |
