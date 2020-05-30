@@ -93,8 +93,8 @@
 | 1303 | [求团队人数](https://github.com/shaoecho/Leetcode_MySQL/blob/master/1303_Find%20the%20Team%20Size.md) | easy       | 自连接,左连接_多对多,组内子查询         |
 | 1308 | 不同性别每日分数总计                                         | medium     |                                         |
 | 1321 | 餐馆营业额变化增长                                           | medium     |                                         |
-| 1322 | 广告效果                                                     | easy       |                                         |
-| 1327 | 列出指定时间段内所有的下单产品                               | easy       |                                         |
+| 1322 | 广告效果                                                     | easy       | 统计不同的值出现的次数                  |
+| 1327 | 列出指定时间段内所有的下单产品                               | easy       | 多约束条件                              |
 | 1336 | 每次访问的交易次数                                           | difficulty |                                         |
 | 1341 | 电影评分                                                     | medium     |                                         |
 | 1350 | 院系无效的学生                                               | easy       |                                         |
